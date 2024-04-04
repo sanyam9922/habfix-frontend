@@ -1,0 +1,1 @@
+export const hostname = "https://habfix-backend.azurewebsites.net";
