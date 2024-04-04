@@ -65,7 +65,7 @@ const MessPaymentHandler = async (user: any) => {
         razorpay_order_id: response.razorpay_order_id,
         razorpay_signature: response.razorpay_signature,
       };
-      const result = await axios.post(`${hostname}api/student/finishPayment`, data, {
+      const result = await axios.post(`${hostname}/api/student/finishPayment`, data, {
         headers: {
           'Authorization': `Bearer ${authToken}`,
         }
