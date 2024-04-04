@@ -13,7 +13,7 @@ import { useQuery } from "@tanstack/react-query";
 import { getStudentIssues } from "../../api/studentQueries";
 import { RebateForm } from "./RebateForm";
 import axios from "axios";
-import { hostname } from "@/api/server";
+import { hostname } from "../../api/server";
 
 interface ButtonProps {
   name: string;
